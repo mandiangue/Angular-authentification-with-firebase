@@ -1,0 +1,28 @@
+<form [formGroup]="adForm" (ngSubmit)="onLoggin()" class="mx-auto mt-5" style="width:55%;">
+
+<div class="card shadow">
+
+<div class="card-header p-2 text-center fs-3">
+
+  Login page
+  </div>
+ <div class="card-body">
+
+<div class="form-group">
+
+<label for="email">Email:</label>
+
+<input type="text" id="email" required="required" class="form-control m-2 p-2" name="email" formControlName="email" >
+</div>
+
+<div class="form-group">
+<label for="password">Password:</label>
+
+<input type="password" id="password"  required="required" class="form-control m-2 p-2" name="password" formControlName="password" >
+
+</div>
+<button type="submit" [disabled]="adForm.invalid" class="btn btn-primary mt-4 float-start">Envoyer</button>
+ </div>
+</div>
+
+</form>

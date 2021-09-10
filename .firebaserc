@@ -1,0 +1,25 @@
+{
+  "targets": {
+    "admob-app-id-1506549343": {
+      "hosting": {
+        "authAngular": [
+          "admob-app-id-1506549343"
+        ]
+      }
+    },
+    "baboul-mouride": {
+      "hosting": {
+        "authAngular": [
+          "baboul-mouride"
+        ]
+      }
+    },
+    "sitou-a8fb4": {
+      "hosting": {
+        "authAngular": [
+          "sitou-a8fb4"
+        ]
+      }
+    }
+  }
+}
