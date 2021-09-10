@@ -6,17 +6,17 @@ export const environment = {
   production: false,
   firebaseConfig: {
 
-    apiKey: "AIzaSyBZvxQvtgOfiGOhgGFTltNfjL2N0qiA5YI",
+    apiKey: "",
 
-    authDomain: "angularauth-6f8c0.firebaseapp.com",
+    authDomain: "",
 
-    projectId: "angularauth-6f8c0",
+    projectId: "",
 
-    storageBucket: "angularauth-6f8c0.appspot.com",
+    storageBucket: "",
 
-    messagingSenderId: "364372045719",
+    messagingSenderId: "",
 
-    appId: "1:364372045719:web:a52b51bef20ea04123ded2"
+    appId: ""
 
   }
 
